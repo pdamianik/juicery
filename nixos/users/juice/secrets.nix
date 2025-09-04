@@ -4,7 +4,7 @@ let
   userSecret = { sopsFile = ./secrets.yml; };
 in
 {
-  sops.age.keyFile = ../../../keys/age.txt;
+  sops.age.keyFile = "/var/lib/sops-nix/keys.txt";
   sops.secrets."users/${username}/password" = userSecret // {
     neededForUsers = true;
   };
