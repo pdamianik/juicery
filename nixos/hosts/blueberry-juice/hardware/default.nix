@@ -18,6 +18,7 @@ in
     ../../../modules/recipies/uefi.nix
     ../../../modules/recipies/amdgpu.nix
     ../../../modules/recipies/qmk.nix
+    ../../../modules/boot/luks-fido2.nix
     ../../../modules/apps/openrgb.nix
     ../../../modules/apps/solaar.nix
     ../../../modules/networking/bluetooth.nix
