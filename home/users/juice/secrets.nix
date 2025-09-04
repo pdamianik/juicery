@@ -1,7 +1,7 @@
 { username, host, ... }:
 {
   sops = {
-    age.keyFile = "../../../keys/age.txt";
+    age.keyFile = "/home/${username}/.config/sops/age/keys.txt";
     defaultSopsFile = ./secrets.yml;
     secrets = {
       "users/${username}/gpg-key" = {};
