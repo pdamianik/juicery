@@ -11,6 +11,6 @@ in
   users.users.${username} = {
     isNormalUser = true;
     extraGroups = [ "wheel" ] ++ (if config.programs.wireshark.enable then [ "wireshark" ] else []);
-    hashedPasswordFile = config.sops.secrets."users.${username}.password".path;
+    hashedPasswordFile = config.sops.secrets."users/${username}/password".path;
   };
 }

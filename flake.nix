@@ -67,6 +67,17 @@
           ./nixos/hosts/${host}
         ];
       };
-    }) hosts);
+    }) hosts) // {
+      iso = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        modules = [
+          ({ pkgs, modulesPath, ... }: {
+            imports = [ (modulesPath + "/installer/cd-dvd/installation-cd-graphical-combined.nix") ];
+            environment.systemPackages = with pkgs; [ lunarvim neovim sops age age-plugin-yubikey yubioath-flutter yubikey-personalization ];
+            services.pcscd.enable = true;
+          })
+        ];
+      };
+    };
   };
 }

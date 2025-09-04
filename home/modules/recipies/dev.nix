@@ -2,9 +2,9 @@
   imports = [
     ../apps/direnv.nix
     ../apps/wireshark.nix
-    ../apps/python
-    ../apps/python/conda.nix
-    ../apps/python/jupyter.nix
+    # ../apps/python
+    # ../apps/python/conda.nix
+    # ../apps/python/jupyter.nix
     ../apps/processing.nix
     ../apps/vscode.nix
     ../apps/termius.nix

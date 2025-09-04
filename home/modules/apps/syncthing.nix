@@ -1,6 +1,7 @@
-{ username, ... }:
+{ username, host, ... }:
 {
   imports = [
+    ../../users/${username}/hosts/${host}/modules/apps/syncthing.nix
     ../../users/${username}/modules/apps/syncthing.nix
   ];
 
