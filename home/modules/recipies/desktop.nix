@@ -1,0 +1,40 @@
+{ ... }:
+{
+  imports = [
+    ../apps/vesktop
+    ../apps/discord.nix
+    ../apps/easyeffects.nix
+    ../apps/kitty
+    ../apps/neovim
+    ../apps/lunarvim.nix
+    ../apps/firefox
+    ../apps/ungoogled-chromium.nix
+    ../apps/dconf-editor.nix
+    ../apps/parabolic.nix
+    ../apps/mpv.nix
+    ../apps/amberol.nix
+    ../apps/gimp.nix
+    ../apps/identity.nix
+    ../apps/folio.nix
+    ../apps/wxmaxima.nix
+    ../apps/anydesk.nix
+    ../apps/zoom.nix
+    ../apps/geogebra.nix
+    ../apps/zettlr.nix
+    ../apps/typora.nix
+    ../apps/zathura.nix
+    ../apps/helvum.nix
+    ../apps/gstreamer.nix
+    ../apps/resources.nix
+    ../apps/mission-center.nix
+    ../apps/signal.nix
+    ../apps/telegram.nix
+    ../apps/httptoolkit.nix
+    ../apps/obs.nix
+    ../apps/syncthing.nix
+    ../apps/zen-browser/twilight.nix
+    ../apps/vlc.nix
+    ../apps/kdiskmark.nix
+    ../apps/planify.nix
+  ];
+}

@@ -1,0 +1,9 @@
+/**
+* @name Catppuccin Frappe
+* @author catppuccin
+* @description 🎮 Soothing pastel theme for Discord
+* @invite catppuccin-907385605422448742
+* @version 1.4
+* @donate https://github.com/sponsors/catppuccin
+*/
+@import url("https://catppuccin.github.io/discord/dist/catppuccin-frappe.theme.css");

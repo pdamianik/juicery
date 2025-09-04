@@ -1,0 +1,5 @@
+{
+  imports = [
+    ../apps/gamemode.nix
+  ];
+}

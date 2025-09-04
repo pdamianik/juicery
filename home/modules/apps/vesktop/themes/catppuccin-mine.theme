@@ -1,0 +1,12 @@
+/**
+* @name Catppuccin Macchiato/Latte Flamingo
+* @author catppuccin
+* @description 🎮 Soothing pastel theme for Discord
+* @invite catppuccin-907385605422448742
+* @version 1.4
+* @donate https://github.com/sponsors/catppuccin
+*/
+@import url("https://catppuccin.github.io/discord/dist/catppuccin-macchiato-flamingo.theme.css")
+(prefers-color-scheme: dark);
+@import url("https://catppuccin.github.io/discord/dist/catppuccin-latte-flamingo.theme.css")
+(prefers-color-scheme: light);
