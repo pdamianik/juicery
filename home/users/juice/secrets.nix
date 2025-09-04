@@ -1,5 +1,8 @@
 { username, host, ... }:
 {
+  home.file.".config/sops/age/keys.txt" = {
+    source = ../../../keys/age.txt;
+  };
   sops = {
     age.keyFile = "/home/${username}/.config/sops/age/keys.txt";
     defaultSopsFile = ./secrets.yml;
