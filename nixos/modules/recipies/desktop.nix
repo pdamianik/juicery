@@ -8,5 +8,6 @@
     ../flatpak/default.nix
     ../dconf.nix
     ../apps/droidcam.nix
+    ../apps/kdeconnect.nix
   ];
 }

@@ -1,6 +1,6 @@
 {
   imports = [
-    # ../apps/steam.nix
+    ../apps/steam.nix
     ../apps/mangohud.nix
     ../apps/prismlauncher.nix
     ../apps/dotnet.nix

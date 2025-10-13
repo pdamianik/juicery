@@ -18,6 +18,7 @@ let extensions = with pkgs.gnomeExtensions; [
   tiling-shell
   user-avatar-in-quick-settings
   wallpaper-slideshow
+  gsconnect
 ];
 in
 {

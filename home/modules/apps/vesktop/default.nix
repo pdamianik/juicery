@@ -27,7 +27,7 @@ in
     programs.vesktop = {
       enable = true;
       vencord = {
-        settings.enabledThemes = map (theme: "${theme}.css") (builtins.filter (theme: cfg.theme.${theme}.enable) themes);
+        settings.settings.enabledThemes = map (theme: "${theme}.css") (builtins.filter (theme: cfg.theme.${theme}.enable) themes);
         themes = builtins.listToAttrs (map (theme: {
           name = theme;
           value = ./themes/${theme};

@@ -1,5 +1,6 @@
 keys:
-  - &juice_yubikey age1yubikey1q0u5665etwq29t8g25ymzc3k8eury9mkhl3pf9h6faf9lwe4hl6fsw7ln2v
+  - &juice_system_yubikey age1yubikey1qg969zmulr3ze3s5f5j0v95lydzcljj5dhesxct88cyw0srz82pgqnavan8
+  - &juice_yubikey age1yubikey1qwfpuqc7j9pkpndl6katmya6dfswxrk36h5af4kqm9a8cu890msxu2zumzd
 
 creation_rules:
   - path_regex: nixos/users/[^/]+/secrets\.(yml|yaml|json|env|ini)$

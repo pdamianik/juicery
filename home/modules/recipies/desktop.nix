@@ -31,6 +31,7 @@
     ../apps/telegram.nix
     ../apps/httptoolkit.nix
     ../apps/obs.nix
+    ../apps/thunderbird.nix
     ../apps/syncthing.nix
     ../apps/zen-browser/twilight.nix
     ../apps/vlc.nix

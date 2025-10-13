@@ -41,6 +41,11 @@
     #   url = "github:ezKEa/aagl-gtk-on-nix/release-24.11";
     #   inputs.nixpkgs.follows = "nixpkgs";
     # };
+
+    lanzaboote = {
+      url = "github:nix-community/lanzaboote/v0.4.2";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = { self, nixpkgs, ... } @ inputs: let

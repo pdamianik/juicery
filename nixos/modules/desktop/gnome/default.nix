@@ -16,6 +16,10 @@
     gnome-settings-daemon
   ];
 
+  xdg.icons.fallbackCursorThemes = [
+    "adwaita_cursors"
+  ];
+
   programs.dconf.profiles.user.databases = [
     {
       settings = {

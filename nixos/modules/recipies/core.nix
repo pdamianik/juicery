@@ -2,7 +2,7 @@
   imports = [
     ../nix/flakes.nix
     ../disko.nix
-    ../sops
+    # ../sops
     ../home-manager.nix
     ../sops/home-manager.nix
   ];

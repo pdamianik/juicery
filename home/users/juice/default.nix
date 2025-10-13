@@ -4,6 +4,7 @@
     ./secrets.nix
     ./editor.nix
     ./modules/email
+    ../../modules/apps/fish.nix
   ];
 }
 
