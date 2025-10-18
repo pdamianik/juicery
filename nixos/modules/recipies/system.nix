@@ -9,6 +9,7 @@
     ../apps/yubikey.nix
     ../system/time.nix
     ../apps/podman.nix
+    ../system/nixld.nix
   ];
 }
 
