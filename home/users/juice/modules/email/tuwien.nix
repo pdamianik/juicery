@@ -1,18 +1,36 @@
 {
   accounts.email.accounts = {
-    tuwien = {
+    "TU Wien" = rec {
       address = "e12418032@student.tuwien.ac.at";
-      name = "TU Wien";
+      userName = address;
       realName = "Philip Damianik";
       primary = true;
-      # thunderbird = {
-      #   enable = true;
-      # };
+
+      smtp = {
+        host = "smtp-mail.outlook.com";
+        port = 587;
+        tls = { enable = true; useStartTls = true; };
+      };
+
+      imap = {
+        host = "outlook.office365.com";
+        port = 993;
+        tls.enable = true;
+      };
+
+      thunderbird = {
+        enable = true;
+        profiles = [ "default" ];
+        settings = id: {
+          "mail.server.server_${id}.authMethod" = 10;
+          "mail.smtpserver.smtp_${id}.authMethod" = 10;
+        };
+      };
     };
   };
 
   programs.thunderbird.profiles = {
-    tuwien = {
+    default = {
       isDefault = true;
     };
   };
