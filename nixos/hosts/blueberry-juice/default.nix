@@ -9,6 +9,7 @@ in
     ../../modules/recipies/desktop.nix
     ../../modules/recipies/printing.nix
     ../../modules/recipies/gaming.nix
+    ../../modules/recipies/graphics.nix
     ../../modules/desktop/gnome
   ] ++ map (username: ./users/${username}) users;
 
