@@ -1,4 +1,4 @@
-{ lib, config, username, ... }:
+{ lib, config, username, pkgs, ... }:
 let
   themes = builtins.attrNames (builtins.readDir ./themes);
   cfg = config.programs.vesktop;
@@ -27,7 +27,7 @@ in
     programs.vesktop = {
       enable = true;
       vencord = {
-        settings.settings.enabledThemes = map (theme: "${theme}.css") (builtins.filter (theme: cfg.theme.${theme}.enable) themes);
+        settings.enabledThemes = map (theme: "${theme}.css") (builtins.filter (theme: cfg.theme.${theme}.enable) themes);
         themes = builtins.listToAttrs (map (theme: {
           name = theme;
           value = ./themes/${theme};
@@ -35,6 +35,7 @@ in
       };
     };
     services.arrpc.enable = cfg.arrpc;
+    # home.packages = with pkgs; [ vesktop ];
   };
 }
 
