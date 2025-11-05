@@ -15,12 +15,12 @@ in
         enable = lib.mkEnableOption "the Vencord theme \"${theme}\"";
       };
     }) themes);
-    arrpc = lib.mkOption {
-      default = true;
-      type = lib.types.bool;
-      description = "Enable Arrpc to provide RPC information to Vesktop";
-      example = false;
-    };
+    # arrpc = lib.mkOption {
+    #   default = true;
+    #   type = lib.types.bool;
+    #   description = "Enable Arrpc to provide RPC information to Vesktop";
+    #   example = false;
+    # };
   };
 
   config = {
@@ -34,7 +34,7 @@ in
         }) themes);
       };
     };
-    services.arrpc.enable = cfg.arrpc;
+    # services.arrpc.enable = cfg.arrpc;
     # home.packages = with pkgs; [ vesktop ];
   };
 }
