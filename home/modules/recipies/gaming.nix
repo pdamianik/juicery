@@ -6,6 +6,7 @@
     ../apps/dotnet.nix
     ../apps/flightgear.nix
     ../apps/openttd.nix
+    ../apps/endless-sky.nix
     ../apps/lutris.nix
     ../apps/bottles.nix
     ../apps/proton.nix
