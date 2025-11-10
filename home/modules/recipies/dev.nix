@@ -23,6 +23,7 @@
     ../apps/jetbrains/remote.nix
     ../apps/jetbrains/rust-rover.nix
     # ../apps/jetbrains/toolbox.nix
+    ../apps/jujutsu.nix
   ];
 }
 
