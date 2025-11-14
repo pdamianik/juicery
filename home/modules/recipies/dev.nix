@@ -7,7 +7,6 @@
     # ../apps/python/jupyter.nix
     ../apps/processing.nix
     ../apps/vscode.nix
-    ../apps/termius.nix
 
     ../apps/jetbrains
     ../apps/jetbrains/android-studio.nix
@@ -24,6 +23,8 @@
     ../apps/jetbrains/rust-rover.nix
     # ../apps/jetbrains/toolbox.nix
     ../apps/jujutsu.nix
+    ../apps/termius.nix
+    ../apps/zed.nix
   ];
 }
 
