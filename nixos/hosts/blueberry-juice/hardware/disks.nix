@@ -23,11 +23,11 @@
 #       options = [ "subvol=home" ];
 #     };
 
-#   fileSystems."/mnt/Windows" = {
-#     device = "/dev/disk/by-uuid/EC9EA1029EA0C684";
-#     fsType = "ntfs-3g";
-#     options = [ "defaults" "rw" "utf8" "noauto" "x-gvfs-show" "x-gvfs-name=Windows" ];
-#   };
+  fileSystems."/mnt/Windows" = {
+    device = "/dev/disk/by-uuid/98A2838FA2837094";
+    fsType = "ntfs-3g";
+    options = [ "defaults" "rw" "utf8" "noauto" "x-gvfs-show" "x-gvfs-name=Windows" ];
+  };
 
 #   swapDevices =
 #     [ { device = "/dev/disk/by-uuid/01b3f6a0-f6fc-4820-8b72-7004330437b2"; }
