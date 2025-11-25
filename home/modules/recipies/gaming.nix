@@ -12,5 +12,6 @@
     ../apps/proton.nix
     ../apps/wine.nix
     ../apps/minesweeper.nix
+    ../apps/xivlauncher.nix
   ];
 }
