@@ -1,6 +1,6 @@
 { config, ... }:
 {
   environment.systemPackages = [
-    config.kernelPackages.perf
+    config.perf
   ];
 }

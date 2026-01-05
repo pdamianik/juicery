@@ -1,7 +1,7 @@
 { pkgs, ... }:
 let
-  packages = with pkgs.jetbrains; [ pycharm-professional ];
-in
+  packages = with pkgs.jetbrains; [ idea ];
+in 
 {
   home.packages = packages;
 
