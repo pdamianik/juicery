@@ -23,6 +23,7 @@
     # ../apps/jetbrains/toolbox.nix
     ../apps/jujutsu.nix
     ../apps/renderdoc.nix
+    ../apps/rgp.nix
     ../apps/termius.nix
     ../apps/vscode.nix
     ../apps/zed.nix
