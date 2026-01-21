@@ -1,7 +1,7 @@
 { ... }:
 {
   imports = [
-    ../apps/vesktop
+    ../apps/curtail.nix
     ../apps/discord.nix
     ../apps/easyeffects.nix
     ../apps/kitty
@@ -34,6 +34,7 @@
     ../apps/thunderbird.nix
     ../apps/syncthing.nix
     ../apps/zen-browser/twilight.nix
+    ../apps/vesktop
     ../apps/vlc.nix
     ../apps/kdiskmark.nix
     ../apps/planify.nix
