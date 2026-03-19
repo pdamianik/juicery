@@ -1,4 +1,4 @@
-{ username, ... }:
+{ username, pkgs, ... }:
 {
   imports = [
     ../wayland
@@ -7,5 +7,9 @@
     ../../../users/${username}/modules/desktop/gnome/tweaks.nix
     ./gnome-tweaks.nix
     ./gnome-extension-manager.nix
+  ];
+
+  home.packages = with pkgs; [
+    file-roller
   ];
 }

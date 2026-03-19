@@ -27,6 +27,7 @@
     ../apps/gstreamer.nix
     ../apps/resources.nix
     ../apps/mission-center.nix
+    ../apps/rstudio.nix
     ../apps/signal.nix
     ../apps/telegram.nix
     ../apps/httptoolkit.nix

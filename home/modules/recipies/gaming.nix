@@ -1,17 +1,19 @@
 {
   imports = [
-    ../apps/steam.nix
-    ../apps/mangohud.nix
-    ../apps/prismlauncher.nix
+    ../apps/bottles.nix
     ../apps/dotnet.nix
     ../apps/flightgear.nix
-    ../apps/openttd.nix
     ../apps/endless-sky.nix
     ../apps/lutris.nix
-    ../apps/bottles.nix
-    ../apps/proton.nix
-    ../apps/wine.nix
+    ../apps/mangohud.nix
     ../apps/minesweeper.nix
+    ../apps/openttd.nix
+    ../apps/osu.nix
+    ../apps/prismlauncher.nix
+    ../apps/proton.nix
+    ../apps/protonup.nix
+    ../apps/steam.nix
+    ../apps/wine.nix
     ../apps/xivlauncher.nix
   ];
 }

@@ -253,7 +253,7 @@
             "showLastFmLogo": true,
             "statusDisplayType": "off",
             "statusName": "",
-            "useListeningStatus": false,
+            "useListeningStatus": true,
             "username": "leyley24"
         },
         "LoadingQuotes": {
