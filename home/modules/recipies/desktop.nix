@@ -1,6 +1,7 @@
 { ... }:
 {
   imports = [
+    ../apps/amberol.nix
     ../apps/curtail.nix
     ../apps/discord.nix
     ../apps/easyeffects.nix
@@ -12,7 +13,7 @@
     ../apps/dconf-editor.nix
     ../apps/parabolic.nix
     ../apps/mpv.nix
-    ../apps/amberol.nix
+    ../apps/music-discord-rpc.nix
     ../apps/gimp.nix
     ../apps/identity.nix
     ../apps/folio.nix

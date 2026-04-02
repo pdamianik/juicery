@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs-unstable, ... }:
 {
-  home.packages = with pkgs; [ geogebra6 ];
+  home.packages = with pkgs-unstable; [ geogebra6 ];
 }

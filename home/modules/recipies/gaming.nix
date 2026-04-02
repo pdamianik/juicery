@@ -1,6 +1,7 @@
 {
   imports = [
     ../apps/bottles.nix
+    ../apps/deadlock-mod-manager.nix
     ../apps/dotnet.nix
     ../apps/flightgear.nix
     ../apps/endless-sky.nix
@@ -12,6 +13,7 @@
     ../apps/prismlauncher.nix
     ../apps/proton.nix
     ../apps/protonup.nix
+    ../apps/satisfactory-mod-manager.nix
     ../apps/steam.nix
     ../apps/wine.nix
     ../apps/xivlauncher.nix

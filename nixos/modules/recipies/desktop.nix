@@ -1,6 +1,7 @@
 {
   imports = [
     ../nixpkgs/unfree.nix
+    ../nixpkgs/insecure.nix
     ../kernel/zen.nix
     ../boot/silent.nix
     ../boot/plymouth
