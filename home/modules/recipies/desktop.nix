@@ -12,6 +12,7 @@
     ../apps/ungoogled-chromium.nix
     ../apps/dconf-editor.nix
     ../apps/parabolic.nix
+    ../apps/mattermost.nix
     ../apps/mpv.nix
     ../apps/music-discord-rpc.nix
     ../apps/gimp.nix
