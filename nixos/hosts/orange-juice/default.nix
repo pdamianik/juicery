@@ -7,6 +7,7 @@ in
     ../../modules/recipies/core.nix
     ../../modules/recipies/system.nix
     ../../modules/recipies/desktop.nix
+    ../../modules/recipies/dev.nix
     ../../modules/recipies/printing.nix
     ../../modules/recipies/gaming.nix
     ../../modules/desktop/gnome
