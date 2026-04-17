@@ -243,7 +243,7 @@
         },
         "LastFMRichPresence": {
             "apiKey": "ea05deb76d02e3567c355999d1fb0cd9",
-            "enabled": true,
+            "enabled": false,
             "hideWithActivity": false,
             "hideWithSpotify": true,
             "missingArt": "lastfmLogo",

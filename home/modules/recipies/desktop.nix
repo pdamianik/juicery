@@ -7,6 +7,7 @@
     ../apps/easyeffects.nix
     ../apps/kitty
     ../apps/neovim
+    ../apps/premid.nix
     ../apps/lunarvim.nix
     ../apps/firefox
     ../apps/ungoogled-chromium.nix
@@ -36,7 +37,7 @@
     ../apps/obs.nix
     ../apps/thunderbird.nix
     ../apps/syncthing.nix
-    ../apps/zen-browser/twilight.nix
+    ../apps/zen-browser/beta.nix
     ../apps/vesktop
     ../apps/vlc.nix
     ../apps/kdiskmark.nix
