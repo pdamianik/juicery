@@ -1,5 +1,6 @@
 {
   imports = [
+    ../apps/blender.nix
     ../apps/direnv.nix
     ../apps/wireshark.nix
     # ../apps/python

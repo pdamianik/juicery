@@ -170,7 +170,7 @@
             "useHyperLinks": true
         },
         "FakeProfileThemes": {
-            "enabled": false
+            "enabled": true
         },
         "FavoriteEmojiFirst": {
             "enabled": false

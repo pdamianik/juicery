@@ -8,6 +8,7 @@
     ../apps/nil.nix
     ../apps/nix-search-cli.nix
     ../apps/nom.nix
+    ../apps/wireguard.nix
     ../apps/yubikey.nix
   ];
 }
