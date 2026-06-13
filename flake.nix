@@ -2,11 +2,11 @@
   description = "Configurations for all my nix systems";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-26.05";
     nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
 
     home-manager = {
-      url = "github:nix-community/home-manager/release-25.11";
+      url = "github:nix-community/home-manager/release-26.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -81,7 +81,7 @@
         modules = [
           ({ pkgs, modulesPath, ... }: {
             imports = [ (modulesPath + "/installer/cd-dvd/installation-cd-graphical-combined.nix") ];
-            environment.systemPackages = with pkgs; [ lunarvim neovim sops age age-plugin-yubikey yubioath-flutter yubikey-personalization ];
+            environment.systemPackages = with pkgs; [ neovim sops age age-plugin-yubikey yubioath-flutter yubikey-personalization ];
             services.pcscd.enable = true;
           })
         ];

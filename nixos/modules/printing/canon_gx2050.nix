@@ -1,7 +1,7 @@
 { pkgs, ... }:
-let
-  cnijfilter2 = pkgs.callPackage ../../../pkgs/cnijfilter_4_70/package.nix {};
-in
+# let
+  # cnijfilter2 = pkgs.callPackage ../../../pkgs/cnijfilter_4_70/package.nix {};
+# in
 {
   hardware.printers = {
     ensurePrinters = [
@@ -19,7 +19,7 @@ in
     ];
   };
 
-  services.printing.drivers = [
+  services.printing.drivers = with pkgs; [
     cnijfilter2
   ];
 }

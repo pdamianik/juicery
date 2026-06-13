@@ -2,13 +2,13 @@
 {
   imports = [
     ../apps/amberol.nix
+    ../apps/crosspipe.nix
     ../apps/curtail.nix
     ../apps/discord.nix
     ../apps/easyeffects.nix
     ../apps/kitty
     ../apps/neovim
-    ../apps/premid.nix
-    ../apps/lunarvim.nix
+    ../apps/neovim/astronvim
     ../apps/firefox
     ../apps/ungoogled-chromium.nix
     ../apps/dconf-editor.nix
@@ -26,7 +26,6 @@
     ../apps/zettlr.nix
     ../apps/typora.nix
     ../apps/zathura.nix
-    ../apps/helvum.nix
     ../apps/gstreamer.nix
     ../apps/resources.nix
     ../apps/mission-center.nix

@@ -1,4 +1,4 @@
 { pkgs, ... }:
 {
-  home.packages = with pkgs; [ blender-hip ];
+  home.packages = with pkgs; [ pkgsRocm.blender ];
 }

@@ -9,10 +9,10 @@
   # '';
   security.polkit.enable = true;
 
-  programs.adb.enable = true;
   programs.droidcam.enable = true;
 
   environment.systemPackages = with pkgs; [
     v4l-utils
+    android-tools
   ];
 }
