@@ -6,6 +6,7 @@
     ../apps/curtail.nix
     ../apps/discord.nix
     ../apps/easyeffects.nix
+    ../apps/libreoffice.nix
     ../apps/kitty
     ../apps/neovim
     ../apps/neovim/astronvim
